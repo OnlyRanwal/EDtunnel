@@ -1,23 +1,14 @@
-name = "sg1" # todo
+name = "error" # todo
 #name = "cf-worker-connect-test" # todo
 #main = "test/worker/cf-cdn-cgi-trace2.js"
 #main = "test/worker/worker-connect-test.js"
 main = "_worker.js"
 compatibility_date = "2023-05-26"
 [[routes]]
-pattern = "sg1.x4official.filegear-sg.me"
+pattern = "error.ranwal404.filegear-sg.me"
 custom_domain = true
 [[routes]]
-pattern = "blog.webex.com.sg1.x4official.filegear-sg.me"
-custom_domain = true
-[[routes]]
-pattern = "cf.shopee.co.id.sg1.x4official.filegear-sg.me"
-custom_domain = true
-[[routes]]
-pattern = "cv.shopee.sg1.x4official.filegear-sg.me"
-custom_domain = true
-[[routes]]
-pattern = "cvs-deo.shopeemobile.com.sg1.x4official.filegear-sg.me"
+pattern = "blog.webex.com.error.ranwal404.filegear-sg.me"
 custom_domain = true
 
 [vars]
